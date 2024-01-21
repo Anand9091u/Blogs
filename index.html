@@ -3,430 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dada Blogs</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 1500px;
+            height: 750px;
+            background-color: black;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 360px;
+            height: 650px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+
+        }
+        .card img{
+            height: 55%;
+            border-radius: 10px;
+        }
+        .card h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .card p{
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
-<body class="body_container">
+<body>
+
     <div class="container">
+        <div class="card">
+            <img src="QRR.jpg" alt="">
+            <h2>Scan the QR code and pay the some Money for help of beggar people. </h2>
 
-        <header class="header_container">
-            <h1 class="header_title">Dada Blogs</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quos dolores fugiat, porro at rerum aliquam sequi itaque eligendi et!</p>
+            <p>NOTE:-There are many items that can be helpful to give to a street beggar, aside from money. Some examples include: Food and water: Non-perishable items like granola bars, nuts, and bottled water can be helpful.</p>
 
-        </header>
-
-        <main class="main_container">
-
-            <!-- card 1 start -->
-            <div class="card_container">
-                <a href="#" class="card_image_container">
-                    <img src="https://source.unsplash.com/random/*400?healthy" 
-                        alt="card 1 imag600e"
-                        class="card_image"
-                        loading="lazy"
-                    />
-                </a>
-
-                <div class="card_title_container">
-                    <a href="#" class="card_title_anchor">
-                        <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                    </a>
-                    <p class="card_desc">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                    </p>
-                </div>
-
-                <div class="card_footer_container">
-                    <div class="author_container">
-                        <div class="author_avatar_contaier">
-                            <img src="https://source.unsplash.com/random/600*400?avatar"
-                            loading="lazy"
-                            class="author_avatar"
-                            alt="avatar 1"
-                            />
-
-                        </div>
-                        <div class="author_info_container">
-                            <span class="author_name">
-                                jhon Doe
-
-                            </span>
-                            <span class="author_date">
-                                sept 19, 2021
-
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="card_tag_container">
-                        <span>technology</span>
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-            <!-- card 2 start -->
-            <div class="card_container">
-                <a href="#" class="card_image_container">
-                    <img src="https://source.unsplash.com/random/*400?healthy" 
-                        alt="card 1 imag600e"
-                        class="card_image"
-                        loading="lazy"
-                    />
-                </a>
-
-                <div class="card_title_container">
-                    <a href="#" class="card_title_anchor">
-                        <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                    </a>
-                    <p class="card_desc">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                    </p>
-                </div>
-
-                <div class="card_footer_container">
-                    <div class="author_container">
-                        <div class="author_avatar_contaier">
-                            <img src="https://source.unsplash.com/random/600*400?healthy"
-                            loading="lazy"
-                            class="author_avatar"
-                            alt="avatar 1"
-                            />
-
-                        </div>
-                        <div class="author_info_container">
-                            <span class="author_name">
-                                jhon Doe
-
-                            </span>
-                            <span class="author_date">
-                                sept 19, 2021
-
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="card_tag_container">
-                        <span>technology</span>
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-            <!-- card 3 start -->
-            <div class="card_container">
-                <a href="#" class="card_image_container">
-                    <img src="https://source.unsplash.com/random/*400?healthy" 
-                        alt="card 1 imag600e"
-                        class="card_image"
-                        loading="lazy"
-                    />
-                </a>
-
-                <div class="card_title_container">
-                    <a href="#" class="card_title_anchor">
-                        <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                    </a>
-                    <p class="card_desc">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                    </p>
-                </div>
-
-                <div class="card_footer_container">
-                    <div class="author_container">
-                        <div class="author_avatar_contaier">
-                            <img src="https://source.unsplash.com/random/600*400?healthy"
-                            loading="lazy"
-                            class="author_avatar"
-                            alt="avatar 1"
-                            />
-
-                        </div>
-                        <div class="author_info_container">
-                            <span class="author_name">
-                                jhon Doe
-
-                            </span>
-                            <span class="author_date">
-                                sept 19, 2021
-
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="card_tag_container">
-                        <span>technology</span>
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-            <!-- card 4 start -->
-            <div class="card_container">
-                <a href="#" class="card_image_container">
-                    <img src="https://source.unsplash.com/random/*400?healthy" 
-                        alt="card 1 imag600e"
-                        class="card_image"
-                        loading="lazy"
-                    />
-                </a>
-
-                <div class="card_title_container">
-                    <a href="#" class="card_title_anchor">
-                        <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                    </a>
-                    <p class="card_desc">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                    </p>
-                </div>
-
-                <div class="card_footer_container">
-                    <div class="author_container">
-                        <div class="author_avatar_contaier">
-                            <img src="https://source.unsplash.com/random/600*400?healthy"
-                            loading="lazy"
-                            class="author_avatar"
-                            alt="avatar 1"
-                            />
-
-                        </div>
-                        <div class="author_info_container">
-                            <span class="author_name">
-                                jhon Doe
-
-                            </span>
-                            <span class="author_date">
-                                sept 19, 2021
-
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="card_tag_container">
-                        <span>technology</span>
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-              <!-- card 5 start -->
-            <div class="card_container">
-                <a href="#" class="card_image_container">
-                    <img src="https://source.unsplash.com/random/*400?healthy" 
-                        alt="card 1 imag600e"
-                        class="card_image"
-                        loading="lazy"
-                    />
-                </a>
-
-                <div class="card_title_container">
-                    <a href="#" class="card_title_anchor">
-                        <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                    </a>
-                    <p class="card_desc">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                    </p>
-                </div>
-
-                <div class="card_footer_container">
-                    <div class="author_container">
-                        <div class="author_avatar_contaier">
-                            <img src="https://source.unsplash.com/random/600*400?healthy"
-                            loading="lazy"
-                            class="author_avatar"
-                            alt="avatar 1"
-                            />
-
-                        </div>
-                        <div class="author_info_container">
-                            <span class="author_name">
-                                jhon Doe
-
-                            </span>
-                            <span class="author_date">
-                                sept 19, 2021
-
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="card_tag_container">
-                        <span>technology</span>
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-              <!-- card 6 start -->
-              <div class="card_container">
-                <a href="#" class="card_image_container">
-                    <img src="https://source.unsplash.com/random/*400?healthy" 
-                        alt="card 1 imag600e"
-                        class="card_image"
-                        loading="lazy"
-                    />
-                </a>
-
-                <div class="card_title_container">
-                    <a href="#" class="card_title_anchor">
-                        <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                    </a>
-                    <p class="card_desc">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                    </p>
-                </div>
-
-                <div class="card_footer_container">
-                    <div class="author_container">
-                        <div class="author_avatar_contaier">
-                            <img src="https://source.unsplash.com/random/600*400?healthy"
-                            loading="lazy"
-                            class="author_avatar"
-                            alt="avatar 1"
-                            />
-
-                        </div>
-                        <div class="author_info_container">
-                            <span class="author_name">
-                                jhon Doe
-
-                            </span>
-                            <span class="author_date">
-                                sept 19, 2021
-
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="card_tag_container">
-                        <span>technology</span>
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-
-
-               <!-- card 7 start -->
-               <div class="card_container">
-                <a href="#" class="card_image_container">
-                    <img src="https://source.unsplash.com/random/*400?healthy" 
-                        alt="card 1 imag600e"
-                        class="card_image"
-                        loading="lazy"
-                    />
-                </a>
-
-                <div class="card_title_container">
-                    <a href="#" class="card_title_anchor">
-                        <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                    </a>
-                    <p class="card_desc">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                    </p>
-                </div>
-
-                <div class="card_footer_container">
-                    <div class="author_container">
-                        <div class="author_avatar_contaier">
-                            <img src="https://source.unsplash.com/random/600*400?healthy"
-                            loading="lazy"
-                            class="author_avatar"
-                            alt="avatar 1"
-                            />
-
-                        </div>
-                        <div class="author_info_container">
-                            <span class="author_name">
-                                jhon Doe
-
-                            </span>
-                            <span class="author_date">
-                                sept 19, 2021
-
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="card_tag_container">
-                        <span>technology</span>
-
-                    </div>
-                </div>
-
-                
-            </div>
-
-
-
-                <!-- card 8 start -->
-                <div class="card_container">
-                    <a href="#" class="card_image_container">
-                        <img src="https://source.unsplash.com/random/*400?healthy" 
-                            alt="card 1 imag600e"
-                            class="card_image"
-                            loading="lazy"
-                        />
-                    </a>
-    
-                    <div class="card_title_container">
-                        <a href="#" class="card_title_anchor">
-                            <h2 class="card_title">Lorem ipsum dolor sit amet.</h2>
-                        </a>
-                        <p class="card_desc">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum similique accusantium autem unde porro nisi.
-                        </p>
-                    </div>
-    
-                    <div class="card_footer_container">
-                        <div class="author_container">
-                            <div class="author_avatar_contaier">
-                                <img src="https://source.unsplash.com/random/600*400?healthy"
-                                loading="lazy"
-                                class="author_avatar"
-                                alt="avatar 1"
-                                />
-    
-                            </div>
-                            <div class="author_info_container">
-                                <span class="author_name">
-                                    jhon Doe
-    
-                                </span>
-                                <span class="author_date">
-                                    sept 19, 2021
-    
-                                </span>
-                            </div>
-                        </div>
-    
-                        <div class="card_tag_container">
-                            <span>technology</span>
-    
-                        </div>
-                    </div>
-    
-                    
-                </div>
-    
-
-
-
-
-        </main>
+        </div>
 
     </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
